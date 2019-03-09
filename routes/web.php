@@ -48,6 +48,6 @@ Route::group(['middleware' => ['auth','adminuser'],],function(){
     Route::get('datapeminjaman/show','DataShowController@datapeminjaman');
     Route::get('datapeminjam','DataShowController@datapeminjam');
     Route::get('about',function (){
-        return redirect("https://github.com/kode-developer/system-peminjaman-barang");
+        return redirect("https://github.com/kode-developer/sistem-peminjaman-barang");
     });
 });
