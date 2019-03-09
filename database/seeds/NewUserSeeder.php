@@ -9,14 +9,14 @@ class NewUserSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'sogun',
-            'email' => 'sogun.kwn@gmail.com',
+            'email' => 'admin@gmail.com',
             'type' =>'admin',
             'password' => bcrypt('secret'),
         ]);
 
         DB::table('users')->insert([
-            'name' => 'peminjam',
-            'email' => 'dedy.darmawan25@gmail.com',
+            'name' => 'dedy',
+            'email' => 'peminjam@gmail.com',
             'type' =>'peminjam',
             'password' => bcrypt('secret'),
         ]);
