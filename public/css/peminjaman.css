@@ -1,0 +1,24 @@
+
+.header h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.button h3{
+    padding: 40px;
+}
+
+.button{
+    padding-bottom: 30px;
+}
+
+.pinjam{
+    min-height: 450px;
+    margin-top: 10px;
+
+}
+
+.kembalikan{
+    min-height: 300px;
+    margin-top: 10px;
+}

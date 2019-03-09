@@ -1,0 +1,35 @@
+.header h1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.button h3{
+    padding: 60px;
+}
+
+.footer h6{
+    padding-top: 260px;
+}
+
+.errormsg{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img{
+    padding-top: 30px;
+    width: 800px;
+    height: 630px;
+}
+
+.msg hr{
+    margin-top: -20px
+}
+
