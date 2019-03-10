@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css"  type="text/css">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="/css/admin.css" type="text/css">
+    <script src="/js/jquery-3.3.1.min.js"></script>
 
     <!-- Font Awesome JS -->
     <script defer src="/js/solid.js"></script>

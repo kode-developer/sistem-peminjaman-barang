@@ -14,6 +14,7 @@
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="/css/admin.css">
 
+    <script src="/js/jquery-3.3.1.min.js"></script>
     <!-- Font Awesome JS -->
     <script defer src="/js/solid.js"></script>
     <script defer src="/js/fontawesome.js"></script>
