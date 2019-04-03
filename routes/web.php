@@ -26,7 +26,7 @@ Route::post('password/reset', 'Auth\ResetPasswordController@reset')->name('passw
 
 
 // Route for ordinary user, user that only can meminjam and mengembalikan, admin users can visit this page
-Route::group(['middleware'=>['auth','banpageadmin']],function (){
+Route::group(['middleware'=>['banpageadmin']],function (){
     Route::get('/', function () {return view('index');});
     Route::get('peminjaman','RequestFormController@peminjaman');
     Route::post('peminjaman','ProsesPinjamController@store');
