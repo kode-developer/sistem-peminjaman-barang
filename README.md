@@ -1,11 +1,7 @@
 # Sistem Peminjaman Barang
 
-## Log-in Ke Sistem 
->Sistem Peminjaman User
->>email    : peminjam@gmail.com <br /> 
->>password : secret
-
 >Sistem Admin User
+>>url      : /login<br />
 >>email    : admin@gmail.com<br /> 
 >>password : secret 
 
